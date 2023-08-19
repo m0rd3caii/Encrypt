@@ -7,7 +7,7 @@ from cryptography.fernet import Fernet
 files = []
 
 for file in os.listdir():
-	if file =="seTenso.py" or file =="secretKey.key" or file == "seDesTenso.py":
+	if file =="encrypt.py" or file =="secretKey.key" or file == "decrypt.py":
 		continue
 	if os.path.isfile(file):  
 		files.append(file)
