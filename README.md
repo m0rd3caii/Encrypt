@@ -1,2 +1,3 @@
 # Encrypt
-Script to encrypt Directories
+
+This script only works to encrypt the directory where it is executed.
